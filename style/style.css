@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: fira sans;
+}
+.btn-primary{
+    border-radius: 8px;
+    background-color: rgb(0, 106, 80);
+    color: white;
+    padding: 17px 34px;
+    border: none;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #df0f0f8f;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+/* nav bar create */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 31px 0px;
+}
+.nav-bangladesh{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+}
+nav button{
+    color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 18px;
+font-weight: 600;
+padding: 15px 30px;
+border-radius: 15px;
+border: 1px solid rgb(0, 106, 80);
+cursor: pointer;
+}
+nav button:hover{
+    background-color: rgba(80, 177, 153, 0.4);
+    
+}
+
+/* first background text and background */
+
+.first-background{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    padding: 80px 60px;
+    /* height: 560px; */
+}
+.first-text p{
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+.first-text h1{
+    color: rgb(14, 14, 14);
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    padding-bottom: 24px;
+}
+/* flex type element */
+#second-flex-background{
+    padding: 80px 0;
+}
+.flex-background{
+    display: flex;
+    justify-content: space-around;
+
+}
+.text{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 32px;
+}
+.flex{
+    padding: 24px;
+    margin: 0 24px;
+}
+.flex img, h4{
+    padding: 16px 0;
+}
+/* the vision of future is starting */
+.btn-sec{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    background-color: aqua;
+    border: none;
+    border-radius: 8px;
+}
+.vision-flex h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.vision-flex p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+.blue{
+    background-color: rgb(84, 144, 245);
+    cursor: pointer;
+}
+.blue:hover{
+    background-color: rgba(98, 125, 247, 0.678);
+}
+.green{
+    background-color: rgb(9, 161, 92);
+    cursor: pointer;
+}
+.green:hover{
+    background-color: rgb(101, 196, 153);
+}
+.orange{
+    background-color: rgb(255, 194, 57);
+    cursor: pointer;
+}
+.orange:hover{
+    background-color: rgb(241, 209, 134);
+}
+
+.vision-flex-background{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    /* padding: 32px; */
+}
+.flex-colorful p{
+    padding-bottom: 20px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.colorful1{
+    background-color: rgba(84, 143, 245, 0.329);
+    border-radius: 16px;
+    padding: 32px 32px;
+    width: 410px;
+    /* height: 325px; */
+}
+.colorful2{
+    background-color: rgb(198, 228, 214) ;
+    border-radius: 16px;
+    padding: 32px 32px;
+    width: 410px;
+    /* height: 325px; */
+}
+.colorful3{
+    background-color: rgb(247, 235, 207) ;
+    border-radius: 16px;
+    padding: 32px 32px;
+    width: 410px;
+    /* height: 325px; */
+}
+
+.colorful1 p{
+    padding-bottom: 24px;
+}
+.colorful2 p{
+    padding-bottom: 48px;
+}
+.colorful3 p{
+    padding-bottom: 48px;
+}
+
+/* dr-younus element start */
+.dr-younus{
+    padding: 48px 24px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 23px;
+    margin-bottom: 80px;
+}
+.dr-younus p{
+    padding-bottom: 12px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+}
+.dr-younus-h3{
+    padding-bottom: 4px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+}
+/* start recent news element */
+.upper-text h2{
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 24px;
+}
+.upper-text p{
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+.upper-img-design{
+    display: flex;
+    align-items: center;
+    padding: 48px;
+}
+.img-left{
+    border-radius: 24px;
+    padding-right: 32px;
+}
+.img-left img{
+    border-radius: 24px;
+}
+.text-right h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.text-right img{
+    margin-bottom: 12px;
+}
+.text-right .date{
+    margin-bottom: 12px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+.text-right .para{
+    margin-bottom: 38px;
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.down-img-design{
+    display: flex;
+    align-items: center;
+    padding: 48px;
+}
+.img-down{
+    border-radius: 24px;
+    padding-left: 32px;
+}
+.img-down img{
+    border-radius: 24px;
+}
